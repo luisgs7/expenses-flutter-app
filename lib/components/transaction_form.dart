@@ -53,7 +53,7 @@ class _TransactionFormState extends State<TransactionForm> {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 TextButton(
-                  onPressed: _submitForm(),
+                  onPressed: _submitForm,
                   style: ButtonStyle(
                     foregroundColor: WidgetStateProperty.all(
                       Colors.purple,
