@@ -54,19 +54,19 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   // const MyHomePage({super.key});
-  final _transactions = [
-    Transaction(
-      id: 't1',
-      title: 'Iphone 15',
-      value: 310.78,
-      date: DateTime.now(),
-    ),
-    Transaction(
-      id: 't2',
-      title: 'Notebook',
-      value: 5000.00,
-      date: DateTime.now(),
-    ),
+  final List<Transaction> _transactions = [
+    // Transaction(
+    //   id: 't1',
+    //   title: 'Iphone 15',
+    //   value: 310.78,
+    //   date: DateTime.now(),
+    // ),
+    // Transaction(
+    //   id: 't2',
+    //   title: 'Notebook',
+    //   value: 5000.00,
+    //   date: DateTime.now(),
+    // ),
   ];
 
   _addTransaction(String title, double value) {
