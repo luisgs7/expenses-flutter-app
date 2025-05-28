@@ -105,6 +105,17 @@ class _MyHomePageState extends State<MyHomePage> {
       title: const Text("Despesas Pessoais"),
       backgroundColor: Theme.of(context).colorScheme.primary,
       actions: [
+        if (isLandscape)
+          IconButton(
+            icon: Icon(
+              _showChart ? Icons.list : Icons.pie_chart,
+            ),
+            onPressed: () {
+              setState(() {
+              _showChart = !_showChart;
+            });
+          },
+        ),
         IconButton(
           icon: Icon(
             Icons.add,
