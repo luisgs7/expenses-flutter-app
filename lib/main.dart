@@ -117,9 +117,9 @@ class _MyHomePageState extends State<MyHomePage> {
           },
         ),
         IconButton(
-          icon: Icon(
+          icon: const Icon(
             Icons.add,
-            color: Colors.white,
+            color: Color.fromARGB(255, 31, 26, 26),
           ),
           onPressed: () => _openTransactionFormModal(context),
         ),
